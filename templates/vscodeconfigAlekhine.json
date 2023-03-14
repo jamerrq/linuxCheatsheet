@@ -1,0 +1,53 @@
+{
+    "editor.trimAutoWhitespace": true,
+    "editor.fontFamily": "Fira Code Semibold",
+    "editor.fontLigatures": true,
+    "terminal.integrated.inheritEnv": false,
+    "editor.rulers": [
+        80
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "explorer.confirmDragAndDrop": false,
+    "python.jediEnabled": false,
+    "git.enableSmartCommit": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.autoSave": "afterDelay",
+    "python.languageServer": "Pylance",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.semanticHighlighting.enabled": true,
+    "editor.renderWhitespace": "all",
+    "files.trimTrailingWhitespace": true,
+    "python.pythonPath": "/home/jamerrq/anaconda3/bin/python",
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#2d4141",
+        "progressBar.background" : "#320B3B",
+        "statusBar.background" : "#320B3B"
+    },
+    "editor.wordWrap": "on",
+    "editor.accessibilitySupport": "off",
+    "explorer.confirmDelete": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "jupyter.askForKernelRestart": false,
+    "[python]": {
+        "editor.formatOnType": true
+    }
+}
