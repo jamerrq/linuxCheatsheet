@@ -1,2 +1,2 @@
 # Linux Cheatsheet
-Default bash scripts for setup new linux machines
+All utility needed for setup new linux machines
