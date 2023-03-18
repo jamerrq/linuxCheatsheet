@@ -5,3 +5,5 @@
 [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64)
 
 [Google Chrome](https://www.google.com/chrome/thank-you.html?statcb=0&installdataindex=empty&defaultbrowser=0#)
+
+[XAMPP](https://sourceforge.net/projects/xampp/files/latest/download)
