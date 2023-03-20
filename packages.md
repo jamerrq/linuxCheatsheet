@@ -45,3 +45,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 ```
 sudo apt install -y php libapache2-mod-php php-mysql
 ```
+### Net Tools
+```
+sudo apt install -y net-tools
+```

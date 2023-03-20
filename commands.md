@@ -40,3 +40,13 @@ tar --extract --file=filename.tar.bz2 filename.ext [file2, file3, ...]
 
 ```
 [More info at this link](https://www.tecmint.com/18-tar-command-examples-in-linux/)
+
+
+### Apache web server
+```
+# check if the service is already running
+sudo service apache2 status
+
+# stop it
+sudo service apache2 stop
+```

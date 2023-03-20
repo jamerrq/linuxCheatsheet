@@ -143,6 +143,12 @@ bindsym XF86AudioPrev exec playerctl previous
 ### Change Background with feh
 exec --no-startup-id feh --bg-scale --zoom fill ~/Pictures/background.jpg
 
+floating_minimum_size 500 x 500
+
+floating_maximum_size 1000 x 500
+
+# i3lock --image /home/jamerrq/background.jpg
+
 ######################################################################## END AGG
 
 # resize window (you can also use the mouse for that)
