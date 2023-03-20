@@ -40,3 +40,11 @@ tar --extract --file=filename.tar.bz2 filename.ext [file2, file3, ...]
 
 ```
 [More info at this link](https://www.tecmint.com/18-tar-command-examples-in-linux/)
+
+
+### Rename all *.txt to *.js
+```
+for file in *.txt; do
+    mv -- "$file" "${file%.txt}.js"
+done
+```
