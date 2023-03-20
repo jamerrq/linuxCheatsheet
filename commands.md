@@ -50,3 +50,11 @@ sudo service apache2 status
 # stop it
 sudo service apache2 stop
 ```
+
+
+### Rename all *.txt to *.js
+```
+for file in *.txt; do
+    mv -- "$file" "${file%.txt}.js"
+done
+```
