@@ -49,8 +49,10 @@ sudo service apache2 status
 
 # stop it
 sudo service apache2 stop
-```
 
+# visual interface
+sudo /opt/lampp/manager-linux-x64.run
+```
 
 ### Rename all *.txt to *.js
 ```
