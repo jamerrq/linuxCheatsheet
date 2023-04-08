@@ -60,3 +60,39 @@ for file in *.txt; do
     mv -- "$file" "${file%.txt}.js"
 done
 ```
+
+
+### Git commands
+```
+# Ignore local changes on file
+git update-index --assume-unchanged filename
+
+# Create a new branch from commit and changing into it
+git checkout -b NEW_BRANCH_NAME COMMIT_ID
+
+# Ignore local changes for file
+git update-index --assume-unchanged filename
+
+# Revert previous command
+git update-index --no-assume-unchanged filename
+
+# Get list of files ignored locally but not by .gitignore
+git ls-files -v | grep '^h'
+```
+
+### Grep commmands
+```
+# Search word into a file
+grep "word" filename
+
+# Search word into terminal history
+history | grep "word"
+```
+
+### Grep flags
+```
+-i ignore case
+-R looks recursively into directory and subdirectories
+-c display count of matches
+```
+[More info at this link](https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/)
