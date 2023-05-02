@@ -5,6 +5,12 @@
 ps aux | grep -i apt
 ```
 
+### Hardware stuff
+```
+# check usb ports speed
+sudo lsusb -vvv |grep -i -B5 -A5 bcdUSB
+```
+
 ### Tar commands
 
 ```
@@ -78,6 +84,9 @@ git update-index --no-assume-unchanged filename
 
 # Get list of files ignored locally but not by .gitignore
 git ls-files -v | grep '^h'
+
+# Reset last commits
+git reset --soft HEAD~n # where n is the number of commits to reset
 ```
 
 ### Grep commmands
