@@ -105,3 +105,33 @@ history | grep "word"
 -c display count of matches
 ```
 [More info at this link](https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/)
+
+
+### Postgres
+```
+# Access postgres user
+sudo -u postgres psql
+# Set password
+\password postgres
+# Create user
+create user myuser with encrypted password 'mypass';
+# Create database
+sudo -u postgres createdb mydb
+# Access database
+sudo -u postgres psql mydb
+# Grant privileges
+grant all privileges on database mydb to myuser;
+# List databases
+\l
+# List users
+\du
+# List tables
+\dt
+# Exit
+\q
+```
+
+# Get windows properties
+```
+xprop | grep WM_CLASS
+```
