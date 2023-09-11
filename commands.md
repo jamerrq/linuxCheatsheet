@@ -1,19 +1,21 @@
-## Useful commands
+# Useful commands
 
-### Check who is using apt
-```
+## Check who is using apt
+
+```{bash}
 ps aux | grep -i apt
 ```
 
-### Hardware stuff
-```
+## Hardware stuff
+
+```{bash}
 # check usb ports speed
 sudo lsusb -vvv |grep -i -B5 -A5 bcdUSB
 ```
 
-### Tar commands
+## Tar commands
 
-```
+```{bash}
 # create (c for create, v for verbose, f for filepath)
 tar -cvf filename.tar dir_to_compress
 
@@ -43,13 +45,13 @@ tar --extract --file=filename.tar.bz2 filename.ext [file2, file3, ...]
 
 # The extract commands have an optional flag called wildcard
 --wildcards '*.php'
-
 ```
+
 [More info at this link](https://www.tecmint.com/18-tar-command-examples-in-linux/)
 
-
 ### Apache web server
-```
+
+```{bash}
 # check if the service is already running
 sudo service apache2 status
 
@@ -60,16 +62,17 @@ sudo service apache2 stop
 sudo /opt/lampp/manager-linux-x64.run
 ```
 
-### Rename all *.txt to *.js
-```
+## Rename all .txt to .js
+
+```{bash}
 for file in *.txt; do
     mv -- "$file" "${file%.txt}.js"
 done
 ```
 
+## Git commands
 
-### Git commands
-```
+```{bash}
 # Ignore local changes on file
 git update-index --assume-unchanged filename
 
@@ -89,8 +92,9 @@ git ls-files -v | grep '^h'
 git reset --soft HEAD~n # where n is the number of commits to reset
 ```
 
-### Grep commmands
-```
+## Grep commmands
+
+```{bash}
 # Search word into a file
 grep "word" filename
 
@@ -98,17 +102,20 @@ grep "word" filename
 history | grep "word"
 ```
 
-### Grep flags
-```
+## Grep flags
+
+```{bash}
 -i ignore case
 -R looks recursively into directory and subdirectories
 -c display count of matches
+
 ```
+
 [More info at this link](https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/)
 
+## Postgres
 
-### Postgres
-```
+```{bash}
 # Access postgres user
 sudo -u postgres psql
 # Set password
@@ -131,7 +138,8 @@ grant all privileges on database mydb to myuser;
 \q
 ```
 
-# Get windows properties
-```
+## Get windows properties
+
+```{bash}
 xprop | grep WM_CLASS
 ```
